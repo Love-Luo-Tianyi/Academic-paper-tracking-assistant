@@ -249,7 +249,7 @@ jobs:
         done
 
     - name: Send email notification
-      if: steps.dedup_check.outputs.has_new_content == 'true' && vars.GITHUB_PAGES_URL != ''
+      #if: steps.dedup_check.outputs.has_new_content == 'true' && vars.GITHUB_PAGES_URL != ''
       env:
         SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
         SMTP_PORT: ${{ secrets.SMTP_PORT }}
