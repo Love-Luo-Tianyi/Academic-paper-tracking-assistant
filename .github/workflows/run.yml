@@ -259,7 +259,7 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_RECIPIENTS: ${{ secrets.EMAIL_RECIPIENTS }}
-          GITHUB_PAGES_URL: ${{ vars.GITHUB_PAGES_URL }}
+          GITHUB_PAGES_URL: "https://love-luo-tianyi.github.io/daily-arXiv-ai-enhanced/"
           EMAIL_DATE: ${{ steps.crawl_step.outputs.crawl_date }}
         run: |
           source .venv/bin/activate
