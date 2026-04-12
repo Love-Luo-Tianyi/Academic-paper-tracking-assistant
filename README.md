@@ -29,8 +29,8 @@ An automated arXiv tracking system powered by **GitHub Actions + GitHub Pages**.
      Generate Markdown + JSONL and publish via Pages
 
 2. **Weekly Report（周报）**
-   - Map-Reduce 思路提取主题、聚合热点并生成周度分析  
-     Map-Reduce style topic extraction and weekly trend summary
+   - MapReduce 思路提取主题、聚合热点并生成周度分析  
+     MapReduce-style topic extraction and weekly trend summary
 
 3. **Monthly Report（月报）**
    - 汇总月度数据，生成趋势综述与词云  
@@ -53,12 +53,12 @@ An automated arXiv tracking system powered by **GitHub Actions + GitHub Pages**.
 `arXiv -> raw JSONL -> dedup -> AI enhancement -> Markdown/Reports -> Git commit -> GitHub Pages`
 
 对应实现：
-- 抓取：`daily_arxiv/daily_arxiv/spiders/arxiv.py`
-- 去重：`daily_arxiv/daily_arxiv/check_stats.py`
-- AI 增强：`ai/enhance.py`
-- 日报转换：`to_md/convert.py`
-- 周报：`ai/weekly_summary.py`
-- 月报：`ai/monthly_summary.py`
+- 抓取： `daily_arxiv/daily_arxiv/spiders/arxiv.py`
+- 去重： `daily_arxiv/daily_arxiv/check_stats.py`
+- AI 增强： `ai/enhance.py`
+- 日报转换： `to_md/convert.py`
+- 周报： `ai/weekly_summary.py`
+- 月报： `ai/monthly_summary.py`
 
 ### 2) 自动化工作流 | GitHub Actions Workflows
 
