@@ -106,6 +106,7 @@ An automated arXiv tracking system powered by **GitHub Actions + GitHub Pages**.
 | `MODEL_NAME` | 模型名，如 `deepseek-chat` |
 | `EMAIL` | Git 提交邮箱 |
 | `NAME` | Git 提交用户名 |
+| `GITHUB_PAGES_URL` *(optional)* | 邮件中使用的站点完整 URL（可选） |
 
 ---
 
@@ -124,10 +125,14 @@ Optional variable: `GITHUB_PAGES_URL` (full site URL used in email links)
 
 ## 自定义建议 | Customization
 
-- 调整分类：改 `CATEGORIES`
-- 切换语言：改 `LANGUAGE`
-- 更换模型：改 `MODEL_NAME`
-- 调整调度：编辑 `.github/workflows/*.yml` 中 cron
+- 调整分类：改 `CATEGORIES`  
+  Change categories via `CATEGORIES`
+- 切换语言：改 `LANGUAGE`  
+  Switch output language via `LANGUAGE`
+- 更换模型：改 `MODEL_NAME`  
+  Change model via `MODEL_NAME`
+- 调整调度：编辑 `.github/workflows/*.yml` 中 cron  
+  Adjust schedules by editing cron in `.github/workflows/*.yml`
 
 ---
 
