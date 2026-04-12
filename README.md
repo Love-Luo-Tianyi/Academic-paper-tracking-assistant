@@ -24,29 +24,29 @@
 
 ## 2. 页面效果（图文）
 
-### 首页与阅读入口
+### 首页
 
-![首页](images/index.png)
+![首页](images/ss_home.png)
 
-### 论文详情（含结构化 AI 摘要）
+### 论文看板（按分类浏览，支持关键词/作者高亮过滤）
 
-![详情页](images/details.png)
+![论文看板](images/ss_papers_keywords.png)
 
-### 偏好设置（关键词/作者）
+### 论文详情弹窗（含结构化 AI 摘要：TL;DR / Motivation / Method / Result / Conclusion）
 
-![偏好设置](images/setting.png)
+![详情弹窗](images/ss_modal_detail.png)
 
-### 单日与区间筛选
+### 日期选择器（支持单日 / 区间模式）
 
-![单日筛选](images/single-date.png)
+![日期选择器](images/ss_datepicker.png)
 
-![区间筛选](images/range-date.png)
+### 偏好设置（关键词 + 作者，持久化到 localStorage）
 
-### 统计与趋势
+![偏好设置](images/ss_settings.png)
 
-![关键词统计](images/keyword.png)
+### 周报 / 月报浏览器
 
-![趋势图](images/trends.png)
+![报告浏览](images/ss_reports.png)
 
 ---
 
